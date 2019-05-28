@@ -1,0 +1,6 @@
+framework module Pods_ZMKHUserUploadPictureTool_Example {
+  umbrella header "Pods-ZMKHUserUploadPictureTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

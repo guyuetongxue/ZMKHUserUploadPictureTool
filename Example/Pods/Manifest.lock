@@ -1,0 +1,16 @@
+PODS:
+  - ZMKHUserUploadPictureTool (0.1.0)
+
+DEPENDENCIES:
+  - ZMKHUserUploadPictureTool (from `../`)
+
+EXTERNAL SOURCES:
+  ZMKHUserUploadPictureTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZMKHUserUploadPictureTool: b7b2b644f1cc54095becb283e2d1924c9bd5462f
+
+PODFILE CHECKSUM: e65b9317680056730fd4056f75f95025d28fffca
+
+COCOAPODS: 1.6.1

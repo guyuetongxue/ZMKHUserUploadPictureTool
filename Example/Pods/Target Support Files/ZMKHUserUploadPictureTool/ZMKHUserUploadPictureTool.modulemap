@@ -1,0 +1,6 @@
+framework module ZMKHUserUploadPictureTool {
+  umbrella header "ZMKHUserUploadPictureTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
