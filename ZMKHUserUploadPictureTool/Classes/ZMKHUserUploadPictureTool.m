@@ -51,14 +51,11 @@ static ZMKHUserUploadPictureTool *_zmkhUserPictureTool;
 {
     UIAlertController *alertCtl =[[UIAlertController alloc]init];
     UIAlertAction *cancel =[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-        SYTLog(@"cancel");
     }];
     UIAlertAction *xiangji =[UIAlertAction actionWithTitle:@"相机" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        SYTLog(@"xiangji");
         [self popCamerOrPhotoLibraary:UIImagePickerControllerSourceTypeCamera];
     }];
     UIAlertAction *xiangce =[UIAlertAction actionWithTitle:@"相册" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        SYTLog(@"xiangce");
         [self popCamerOrPhotoLibraary:UIImagePickerControllerSourceTypePhotoLibrary];
     }];
     
