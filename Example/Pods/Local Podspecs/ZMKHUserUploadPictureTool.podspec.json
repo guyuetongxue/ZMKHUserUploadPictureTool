@@ -1,7 +1,7 @@
 {
   "name": "ZMKHUserUploadPictureTool",
-  "version": "0.1.1",
-  "summary": "A short description of ZMKHUserUploadPictureTool.",
+  "version": "0.1.2",
+  "summary": "ZMKHUserUploadPictureTool.",
   "description": "TODO: 上传图片调用相机相册工具.",
   "homepage": "https://github.com/guyuetongxue/ZMKHUserUploadPictureTool",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/guyuetongxue/ZMKHUserUploadPictureTool.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
