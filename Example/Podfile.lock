@@ -1,5 +1,5 @@
 PODS:
-  - ZMKHUserUploadPictureTool (0.1.3)
+  - ZMKHUserUploadPictureTool (0.1.6)
 
 DEPENDENCIES:
   - ZMKHUserUploadPictureTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZMKHUserUploadPictureTool: 60134b8f07a4d9d84b6fdd4facce4d8260d5227a
+  ZMKHUserUploadPictureTool: e4f750986c7c86656438e4f178c151934d8adc90
 
 PODFILE CHECKSUM: e65b9317680056730fd4056f75f95025d28fffca
 

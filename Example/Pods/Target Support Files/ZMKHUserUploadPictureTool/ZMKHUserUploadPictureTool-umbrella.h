@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "WYImageCropperViewController.h"
 #import "ZMKHUserUploadPictureTool.h"
 
 FOUNDATION_EXPORT double ZMKHUserUploadPictureToolVersionNumber;

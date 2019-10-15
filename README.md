@@ -22,7 +22,7 @@ pod 'ZMKHUserUploadPictureTool'
 
 ## Author
 
-guyuetongxue, 15521027908@163.com
+guyuetongxue, 472170257@qq.com
 
 ## License
 
