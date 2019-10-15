@@ -21,7 +21,6 @@ static ZMKHUserUploadPictureTool *_zmkhUserPictureTool;
 
 @implementation ZMKHUserUploadPictureTool
 
-
 + (instancetype)zmkhUserUplaodPictureManager
 {
     static dispatch_once_t onceToken;
@@ -51,6 +50,7 @@ static ZMKHUserUploadPictureTool *_zmkhUserPictureTool;
     return _zmkhUserPictureTool;
 }
 
+#pragma mark -uploadCamer
 
 - (void)uploadCamer
 {
