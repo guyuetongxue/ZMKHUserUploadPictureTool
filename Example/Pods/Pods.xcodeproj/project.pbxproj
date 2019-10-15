@@ -10,6 +10,10 @@
 		0405A2DF48E43DE0251E4BA5D6ABBBB7 /* Pods-ZMKHUserUploadPictureTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB209C1674A6C474BBB0652D15B1284 /* Pods-ZMKHUserUploadPictureTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04AB3A0E54EF4D5EFECBF4F4B281041C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		0FD00B73BF34075F2F6DD1B76D087437 /* ZMKHUserUploadPictureTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B0EF68C57D8375C42697EC1205FEB2 /* ZMKHUserUploadPictureTool.m */; };
+		1195FB452355736300B969F0 /* WYImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195FB432355736200B969F0 /* WYImageCropperViewController.m */; };
+		1195FB462355736300B969F0 /* WYImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195FB432355736200B969F0 /* WYImageCropperViewController.m */; };
+		1195FB472355736300B969F0 /* WYImageCropperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1195FB442355736300B969F0 /* WYImageCropperViewController.h */; };
+		1195FB482355736300B969F0 /* WYImageCropperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1195FB442355736300B969F0 /* WYImageCropperViewController.h */; };
 		1A161933119728D0FED1AD50DC08DFEC /* Pods-ZMKHUserUploadPictureTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C927C75354A1F8DADB0CE34193A80FD /* Pods-ZMKHUserUploadPictureTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		229BB4C23905BD66D48911C2FAE94C4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		64AF478F87BBD6A0074C3FF26BB416C8 /* Pods-ZMKHUserUploadPictureTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1F0B121BEF2335E34FF558EAEEE6D2 /* Pods-ZMKHUserUploadPictureTool_Example-dummy.m */; };
@@ -42,6 +46,8 @@
 		08556A53DA9B2FB2E920005684D45FD1 /* ZMKHUserUploadPictureTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZMKHUserUploadPictureTool.modulemap; sourceTree = "<group>"; };
 		0A9B5A5C33A9D961667E7E017D5FF7B3 /* Pods-ZMKHUserUploadPictureTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMKHUserUploadPictureTool_Example-Info.plist"; sourceTree = "<group>"; };
 		11059F6C54D263C3378FA969BA8DFBD4 /* Pods-ZMKHUserUploadPictureTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMKHUserUploadPictureTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1195FB432355736200B969F0 /* WYImageCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYImageCropperViewController.m; path = ZMKHUserUploadPictureTool/Classes/WYImageCropperViewController.m; sourceTree = "<group>"; };
+		1195FB442355736300B969F0 /* WYImageCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYImageCropperViewController.h; path = ZMKHUserUploadPictureTool/Classes/WYImageCropperViewController.h; sourceTree = "<group>"; };
 		275E0F5D61010B8710671FD39E19ADBE /* ZMKHUserUploadPictureTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMKHUserUploadPictureTool.h; path = ZMKHUserUploadPictureTool/Classes/ZMKHUserUploadPictureTool.h; sourceTree = "<group>"; };
 		2A682DF8DFFC2D6C3C851872094CC4AE /* Pods-ZMKHUserUploadPictureTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMKHUserUploadPictureTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		31EA7B0EEC9FAAEF2073F4CE5BDCB93F /* Pods-ZMKHUserUploadPictureTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMKHUserUploadPictureTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -50,26 +56,26 @@
 		43D3F365AA51E0872928E9BCE8103634 /* Pods-ZMKHUserUploadPictureTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMKHUserUploadPictureTool_Tests.modulemap"; sourceTree = "<group>"; };
 		49793E19567E5D10A73DB78EEF350BB0 /* ZMKHUserUploadPictureTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMKHUserUploadPictureTool.xcconfig; sourceTree = "<group>"; };
 		4ACC09D2B3453EBC008D2F37A72A71DE /* Pods-ZMKHUserUploadPictureTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMKHUserUploadPictureTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4D4A14194F4CAB915A870064F6F6F2B8 /* ZMKHUserUploadPictureTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZMKHUserUploadPictureTool.framework; path = ZMKHUserUploadPictureTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4A14194F4CAB915A870064F6F6F2B8 /* ZMKHUserUploadPictureTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZMKHUserUploadPictureTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7205557ED90E36E44036A92FEDC6CE48 /* Pods-ZMKHUserUploadPictureTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMKHUserUploadPictureTool_Example-frameworks.sh"; sourceTree = "<group>"; };
-		75C4741435605378D6E8E57633BDB653 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		75C4741435605378D6E8E57633BDB653 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7FF95A90CA3A3BC72AD37740DCB51F1D /* Pods-ZMKHUserUploadPictureTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMKHUserUploadPictureTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		824830D6D9B9B4B85CE484B0A2343823 /* Pods-ZMKHUserUploadPictureTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMKHUserUploadPictureTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		84532AB93546854E1D97D761C2C596F0 /* Pods-ZMKHUserUploadPictureTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMKHUserUploadPictureTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C927C75354A1F8DADB0CE34193A80FD /* Pods-ZMKHUserUploadPictureTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMKHUserUploadPictureTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8EDB83DD4D0DCB48698295D26372E17C /* Pods-ZMKHUserUploadPictureTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMKHUserUploadPictureTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		96B974E8F14A807D7B746F5B66DF7D27 /* Pods_ZMKHUserUploadPictureTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZMKHUserUploadPictureTool_Example.framework; path = "Pods-ZMKHUserUploadPictureTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96B974E8F14A807D7B746F5B66DF7D27 /* Pods_ZMKHUserUploadPictureTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMKHUserUploadPictureTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5B0EF68C57D8375C42697EC1205FEB2 /* ZMKHUserUploadPictureTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMKHUserUploadPictureTool.m; path = ZMKHUserUploadPictureTool/Classes/ZMKHUserUploadPictureTool.m; sourceTree = "<group>"; };
 		A75FCAE8072F0A033B4215337DC2ACC3 /* ZMKHUserUploadPictureTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMKHUserUploadPictureTool-umbrella.h"; sourceTree = "<group>"; };
 		BCDBB3BDD2CDBC2F5EDB996710CEC1B5 /* ZMKHUserUploadPictureTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZMKHUserUploadPictureTool-Info.plist"; sourceTree = "<group>"; };
-		BF128E785340079EB52A7376D63CD447 /* ZMKHUserUploadPictureTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZMKHUserUploadPictureTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF128E785340079EB52A7376D63CD447 /* ZMKHUserUploadPictureTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZMKHUserUploadPictureTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF6DB5F64B2180B032D2BF8454B539ED /* Pods-ZMKHUserUploadPictureTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMKHUserUploadPictureTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		CA68605466AD73287AB4A6E34AEB82B4 /* Pods-ZMKHUserUploadPictureTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMKHUserUploadPictureTool_Tests-Info.plist"; sourceTree = "<group>"; };
 		CB595E7BF6E04A163ED9F32E9A53D823 /* ZMKHUserUploadPictureTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMKHUserUploadPictureTool-dummy.m"; sourceTree = "<group>"; };
 		DCB209C1674A6C474BBB0652D15B1284 /* Pods-ZMKHUserUploadPictureTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMKHUserUploadPictureTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		E1A6C2E3C8E8C109CF6DBB98818C66F2 /* Pods_ZMKHUserUploadPictureTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZMKHUserUploadPictureTool_Tests.framework; path = "Pods-ZMKHUserUploadPictureTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4EF772216226C94B22F0C32F4B915BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E1A6C2E3C8E8C109CF6DBB98818C66F2 /* Pods_ZMKHUserUploadPictureTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMKHUserUploadPictureTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EF772216226C94B22F0C32F4B915BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F08F53D9CA7DF18077711167E505F65D /* Pods-ZMKHUserUploadPictureTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMKHUserUploadPictureTool_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +161,8 @@
 		7B88790FBF423F8938E2124E5C13A4AE /* ZMKHUserUploadPictureTool */ = {
 			isa = PBXGroup;
 			children = (
+				1195FB442355736300B969F0 /* WYImageCropperViewController.h */,
+				1195FB432355736200B969F0 /* WYImageCropperViewController.m */,
 				275E0F5D61010B8710671FD39E19ADBE /* ZMKHUserUploadPictureTool.h */,
 				A5B0EF68C57D8375C42697EC1205FEB2 /* ZMKHUserUploadPictureTool.m */,
 				36153CF40CD267AAED199DFB6AAA0189 /* Pod */,
@@ -233,6 +241,7 @@
 			files = (
 				82AD1BB33151880ADA82CF4A5A9DDB70 /* ZMKHUserUploadPictureTool-umbrella.h in Headers */,
 				901CDF1C2EEE34927228439944609F55 /* ZMKHUserUploadPictureTool.h in Headers */,
+				1195FB482355736300B969F0 /* WYImageCropperViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0405A2DF48E43DE0251E4BA5D6ABBBB7 /* Pods-ZMKHUserUploadPictureTool_Example-umbrella.h in Headers */,
+				1195FB472355736300B969F0 /* WYImageCropperViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1195FB462355736300B969F0 /* WYImageCropperViewController.m in Sources */,
 				ADB044149246BFD1409CA0B24B655D4C /* ZMKHUserUploadPictureTool-dummy.m in Sources */,
 				0FD00B73BF34075F2F6DD1B76D087437 /* ZMKHUserUploadPictureTool.m in Sources */,
 			);
@@ -385,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1195FB452355736300B969F0 /* WYImageCropperViewController.m in Sources */,
 				64AF478F87BBD6A0074C3FF26BB416C8 /* Pods-ZMKHUserUploadPictureTool_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,8 +472,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

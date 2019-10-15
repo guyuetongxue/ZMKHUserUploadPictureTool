@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZMKHUserUploadPictureTool'
-  s.version          = '0.1.3'
+  s.version          = '0.1.6'
   s.summary          = 'ZMKHUserUploadPictureTool.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                        上传图片调用相机相册工具.
+                        上传图片调用相机相册工具.增加可编辑照片
                        DESC
 
   s.homepage         = 'https://github.com/guyuetongxue/ZMKHUserUploadPictureTool'
