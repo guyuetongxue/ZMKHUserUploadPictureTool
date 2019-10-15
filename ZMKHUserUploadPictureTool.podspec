@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZMKHUserUploadPictureTool'
-  s.version          = '0.1.9'
+  s.version          = '0.2'
   s.summary          = 'ZMKHUserUploadPictureTool.'
 
 # This description is used to generate tags and improve search results.
