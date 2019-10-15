@@ -161,7 +161,6 @@ static ZMKHUserUploadPictureTool *_zmkhUserPictureTool;
     
 }
 
-
 #pragma mark camera utility
 - (BOOL) isCameraAvailable{
     return [UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera];
