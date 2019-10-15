@@ -18,8 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                        上传图片调用相机相册工具.增加可编辑照片
-                       DESC
+   上传图片调用相机相册工具.增加可编辑照片
+  DESC
+
 
   s.homepage         = 'https://github.com/guyuetongxue/ZMKHUserUploadPictureTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
