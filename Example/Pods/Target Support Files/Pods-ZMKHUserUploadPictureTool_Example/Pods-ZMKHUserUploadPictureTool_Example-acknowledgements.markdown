@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## ZMKHUserUploadPictureTool
 
-Copyright (c) 2019 guyuetongxue <472170257@qq.com>
+Copyright (c) 2019 guyuetongxue <15521027908@163.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

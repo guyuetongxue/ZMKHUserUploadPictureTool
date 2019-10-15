@@ -24,7 +24,7 @@ TODO:上传图片调用相机相册工具,增加可编辑照片.
   s.homepage         = 'https://github.com/guyuetongxue/ZMKHUserUploadPictureTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'guyuetongxue' => '472170257@qq.com' }
+  s.author           = { 'guyuetongxue' => '15521027908@163.com' }
   s.source           = { :git => 'https://github.com/guyuetongxue/ZMKHUserUploadPictureTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
